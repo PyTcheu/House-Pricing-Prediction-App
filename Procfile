@@ -1,2 +1,2 @@
 worker: python hpp.py
-web: gunicorn hpp:app
+web: sh setup.sh && streamlit run app.py
